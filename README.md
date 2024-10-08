@@ -1,1 +1,1 @@
-# 28-12-20 dfnhvdhlldf
+# Proyecto Ingeniería de Software: Punto de Venta (POS)
