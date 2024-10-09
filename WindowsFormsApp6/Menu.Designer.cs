@@ -100,7 +100,7 @@ namespace WindowsFormsApp6
             // btnRegistroVent
             // 
             this.btnRegistroVent.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.btnRegistroVent.Location = new System.Drawing.Point(375, 258);
+            this.btnRegistroVent.Location = new System.Drawing.Point(531, 279);
             this.btnRegistroVent.Name = "btnRegistroVent";
             this.btnRegistroVent.Size = new System.Drawing.Size(150, 81);
             this.btnRegistroVent.TabIndex = 18;
