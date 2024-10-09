@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp6
 {
-    partial class Form1
+    partial class frmMercancia
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -35,7 +35,7 @@ namespace WindowsFormsApp6
             System.Windows.Forms.Label marcaLabel;
             System.Windows.Forms.Label precioLabel;
             System.Windows.Forms.Label cant_StockLabel;
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMercancia));
             this.button1 = new System.Windows.Forms.Button();
             this.pruebaDataSet = new WindowsFormsApp6.PruebaDataSet();
             this.pruebaBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -396,7 +396,7 @@ namespace WindowsFormsApp6
             this.cant_StockTextBox.TabIndex = 21;
             this.cant_StockTextBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.cant_StockTextBox_KeyPress);
             // 
-            // Form1
+            // frmMercancia
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -415,7 +415,8 @@ namespace WindowsFormsApp6
             this.Controls.Add(this.pruebaBindingNavigator);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
+            this.Name = "frmMercancia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pruebaDataSet)).EndInit();

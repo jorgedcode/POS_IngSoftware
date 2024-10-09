@@ -389,6 +389,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.tbCP);
             this.Name = "Proveedores";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Proveedores";
             this.Load += new System.EventHandler(this.Proveedores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
